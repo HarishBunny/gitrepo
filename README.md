@@ -1,1 +1,3 @@
-# gitrepo
+sunday
+git 
+repo
