@@ -16,14 +16,10 @@
     <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
   </properties>
 
-  <profiles>
-    <profile>
-        <modules>
-            <module>../my-util</module>
-            <module>../my-server</module>           
-        </modules>
-    </profile>
-</profiles>
+  <modules>
+    <module>server</module>
+    <module>webapp</module>
+  </modules>
 
   <distributionManagement>
     <site>
@@ -225,7 +221,7 @@
   </scm>
 
   <prerequisites>
-    <maven>3.9.2</maven>
+    <maven>3.0.3</maven>
   </prerequisites>
 
 </project>
